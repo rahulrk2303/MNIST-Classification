@@ -1,0 +1,11 @@
+conda create --name mnist python=3.6
+activate mnist
+conda install tensorflow-gpu==1.12.0
+pip install opencv-python==3.4.3.18
+pip install opencv-contrib-python==3.4.3.18
+pip install keras==2.2.4
+pip install pillow
+pip install scipy
+pip install pandas
+pip install scikit-learn
+pip install matplotlib
